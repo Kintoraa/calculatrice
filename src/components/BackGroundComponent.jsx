@@ -21,6 +21,7 @@ export const Background = ({ children }) => {
             <h1>Calculatrice</h1>
           </div>
           <div>
+            <p>Theme</p>
             <ButtonTheme></ButtonTheme>
           </div>
         </div>

@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import { CalculatorContext } from "./KeyboardComponent.jsx";
+import { useContextCalculator } from "./ThemeContext.jsx";
 
 export const Display = () => {
-  const { calculator } = useContext(CalculatorContext);
+  const { calculator } = useContextCalculator();
 
   return (
     <div>

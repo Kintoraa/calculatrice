@@ -15,8 +15,4 @@ button {
 section {
   height: 100vh;
   padding: 100px 10px;
-
-  @media only screen and (max-width: 800px) {
-    padding: 5px 10px;
-  }
 }
