@@ -1,0 +1,6 @@
+@import "./style/_settings.scss";
+@import "./style/_theme.scss";
+@import "./style/_buttonTheme.scss";
+@import "style/_calc_container.scss";
+@import "style/_calc_display.scss";
+@import "style/_calc_keyboard.scss";

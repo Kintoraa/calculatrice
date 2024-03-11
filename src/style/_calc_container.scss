@@ -1,0 +1,17 @@
+@import "./variables";
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    @media only screen and (max-width: 505px) {
+      justify-content: space-evenly;
+    }
+  }
+}

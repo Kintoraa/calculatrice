@@ -1,0 +1,122 @@
+@import "./variables";
+
+//Theme Dark
+.dark {
+  background: $background-body-dark;
+
+  p,
+  h1 {
+    color: $text-color-display-dark;
+  }
+
+  .background-key-board {
+    background: $background-key-board-dark;
+  }
+
+  .background-display {
+    background: $background-display-dark;
+  }
+
+  .button-primary {
+    background: $btn-primary-dark;
+    box-shadow: 3px 3px $btn-primary-shadow-dark;
+    color: $btn-primary-text-dark;
+  }
+
+  .key-result {
+    background: $key-result-dark;
+    box-shadow: 3px 3px $key-result-shadow-dark;
+    color: $key-reset-text-dark;
+  }
+
+  .key-reset {
+    background: $key-reset-dark;
+    box-shadow: 3px 3px $key-reset-shadow-dark;
+    color: $key-reset-text-dark;
+  }
+
+  .button-off {
+    background: gray;
+  }
+}
+
+//Theme light
+
+.light {
+  background: $background-body-white;
+
+  p,
+  h1 {
+    color: $text-color-display-white;
+  }
+
+  .background-key-board {
+    background: $background-key-board-white;
+  }
+
+  .background-display {
+    background: $background-display-white;
+  }
+
+  .button-primary {
+    background: $btn-primary-white;
+    box-shadow: 3px 3px $btn-primary-shadow-white;
+    color: $btn-primary-text-white;
+  }
+
+  .key-result {
+    background: $key-result-white;
+    box-shadow: 3px 3px $key-result-shadow-white;
+    color: $key-reset-text-white;
+  }
+
+  .key-reset {
+    background: $key-reset-white;
+    box-shadow: 3px 3px $key-reset-shadow-white;
+    color: $key-reset-text-white;
+  }
+
+  .button-off {
+    background: gray;
+  }
+}
+
+// Theme purple
+.purple {
+  background: $background-body-3;
+
+  p,
+  h1 {
+    color: $text-color-display-3;
+  }
+
+  .background-key-board {
+    background: $background-key-board-3;
+  }
+
+  .background-display {
+    background: $background-display-3;
+  }
+
+  .button-primary {
+    background: $btn-primary-3;
+    box-shadow: 3px 3px $btn-primary-shadow-3;
+    color: $btn-primary-text-3;
+  }
+
+  .key-result {
+    background: $key-result-3;
+    box-shadow: 3px 3px $key-result-shadow-3;
+    color: $key-reset-text-3;
+  }
+
+  .key-reset {
+    background: $key-reset-3;
+    box-shadow: 3px 3px $key-reset-shadow-3;
+    color: $key-reset-text-3;
+  }
+
+  .button-off {
+    background: gray;
+  }
+}

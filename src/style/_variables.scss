@@ -1,0 +1,78 @@
+// Color Dark Theme
+$background-body-dark: hsl(222, 26%, 31%);
+$background-key-board-dark: hsl(223, 31%, 20%);
+$background-display-dark: hsl(224, 36%, 15%);
+
+//Button Number
+
+$btn-primary-dark: hsl(30, 25%, 89%);
+$btn-primary-shadow-dark: hsl(28, 16%, 65%);
+$btn-primary-text-dark: hsl(221, 14%, 31%);
+
+// Button =
+
+$key-result-dark: hsl(6, 63%, 50%);
+$key-result-shadow-dark: hsl(6, 70%, 34%);
+$key-result-text-dark: hsl(0, 0%, 100%);
+
+// button del and Reset
+
+$key-reset-dark: hsl(225, 21%, 49%);
+$key-reset-shadow-dark: hsl(224, 28%, 35%);
+$key-reset-text-dark: hsl(0, 0%, 100%);
+
+//color Text
+
+$text-color-calc-dark: hsl(221, 14%, 31%);
+$text-color-display-dark: hsl(0, 0%, 100%);
+
+// Color White Theme
+
+$background-body-white: hsl(0, 0%, 90%);
+$background-key-board-white: hsl(0, 5%, 81%);
+$background-display-white: hsl(0, 0%, 93%);
+
+$btn-primary-white: hsl(45, 7%, 89%);
+$btn-primary-shadow-white: hsl(35, 11%, 61%);
+$btn-primary-text-white: hsl(221, 14%, 31%);
+
+$key-result-white: hsl(25, 98%, 40%);
+$key-result-shadow-white: hsl(25, 99%, 27%);
+$key-result-text-white: white;
+
+$key-reset-white: hsl(185, 42%, 37%);
+$key-reset-shadow-white: hsl(185, 58%, 25%);
+$key-reset-text-white: hsl(0, 0%, 100%);
+
+$text-color-calc-white: black;
+$text-color-display-white: black;
+
+// Color Theme 3
+
+$background-body-3: hsl(268, 75%, 9%);
+$background-key-board-3: hsl(268, 71%, 12%);
+$background-display-3: hsl(268, 71%, 12%);
+
+$btn-primary-3: hsl(281, 89%, 26%);
+$btn-primary-shadow-3: hsl(285, 91%, 52%);
+$btn-primary-text-3: hsl(52, 100%, 62%);
+
+$key-result-3: hsl(176, 100%, 44%);
+$key-result-shadow-3: hsl(177, 92%, 70%);
+$key-result-text-3: black;
+
+$key-reset-3: hsl(290, 70%, 36%);
+$key-reset-shadow-3: hsl(268, 47%, 21%);
+$key-reset-text-3: hsl(0, 0%, 100%);
+
+$text-color-calc-3: hsl(52, 100%, 62%);
+$text-color-display-3: hsl(52, 100%, 62%);
+
+
+//Mixin
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
